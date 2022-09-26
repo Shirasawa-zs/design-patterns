@@ -4,32 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e373a647-2337-4ad6-b565-81a8a498ed87" name="Changes" comment="disign pattern before study">
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/HuaweiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/HuaweiPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/HuaweiRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/ProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/Router.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/XiaomiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/XiaomiPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/XiaomiRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/JavaVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/JavaVideoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/PEVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/PEVideoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/VideoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/simple_factory/Cource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/simple_factory/CourceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/simple_factory/JavaCource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/simple_factory/PythonCource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/design/pattern/creational/abstract_factory/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/design/pattern/creational/factory/VideoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/design/pattern/creational/simple_factory/CourceTest.java" afterDir="false" />
+    <list default="true" id="e373a647-2337-4ad6-b565-81a8a498ed87" name="Changes" comment="disign pattern factory">
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/oppoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/oppoPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/oppoRoute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/abstract_factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/design/pattern/abstract_factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/design/pattern/creational/abstract_factory/abstract_factory_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/design/pattern/creational/abstract_factory/abstract_factory_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +159,8 @@
       <workItem from="1664023606931" duration="6000" />
       <workItem from="1664023974132" duration="1682000" />
       <workItem from="1664087071792" duration="5684000" />
-      <workItem from="1664160935348" duration="10914000" />
+      <workItem from="1664160935348" duration="11314000" />
+      <workItem from="1664203284248" duration="397000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1664024392155</created>
@@ -209,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664166038218</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="disign pattern factory">
+      <created>1664201197284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664201197285</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +220,7 @@
     <MESSAGE value="测试提交1" />
     <MESSAGE value="openclose" />
     <MESSAGE value="disign pattern before study" />
-    <option name="LAST_COMMIT_MESSAGE" value="disign pattern before study" />
+    <MESSAGE value="disign pattern factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="disign pattern factory" />
   </component>
 </project>

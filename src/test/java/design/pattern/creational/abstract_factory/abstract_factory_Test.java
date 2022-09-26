@@ -1,9 +1,6 @@
 package test.java.design.pattern.creational.abstract_factory;
 
-import main.java.design.pattern.creational.abstract_factory.HuaweiFactory;
-import main.java.design.pattern.creational.abstract_factory.Phone;
-import main.java.design.pattern.creational.abstract_factory.Router;
-import main.java.design.pattern.creational.abstract_factory.XiaomiFactory;
+import main.java.design.pattern.creational.abstract_factory.*;
 
 public class abstract_factory_Test {
     public static void main(String[] args) {
@@ -21,6 +18,9 @@ public class abstract_factory_Test {
         phone.sendSMS();
         router = huaweiFactory.getRouter();
         router.openWifi();
-
+        System.out.println("=============oppo系列=============");
+        oppoFactory oppoFactory = new oppoFactory();
+        phone = oppoFactory.getPhone();
+        phone.callup();
     }
 }
