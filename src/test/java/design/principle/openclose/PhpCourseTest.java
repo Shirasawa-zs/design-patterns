@@ -1,4 +1,4 @@
-package test.java.design.principle;
+package test.java.design.principle.openclose;
 
 import main.java.design.principle.openclose.ICourse;
 import main.java.design.principle.openclose.PhpCourse;

@@ -4,13 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e373a647-2337-4ad6-b565-81a8a498ed87" name="Changes" comment="测试提交1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/openclose/ICourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/openclose/PhpCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/openclose/PhpCourseDistcount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/design/principle/PhpCourseTest.java" afterDir="false" />
+    <list default="true" id="e373a647-2337-4ad6-b565-81a8a498ed87" name="Changes" comment="openclose">
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/CARP/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/CARP/MySQLConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/CARP/OracleConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/CARP/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/DIP/ICource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/DIP/Java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/DIP/Mary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/DIP/Python.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/ISP/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/ISP/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/ISP/IAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/ISP/IEatAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/ISP/IFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/ISP/ISwim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/LoD/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/LoD/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/LoD/TeamLeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/principle/SRP/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design/principle/DIP/DIPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design/principle/LoD/LoDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design/principle/SRP/LiveCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design/principle/SRP/ReplayCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design/principle/SRP/SRPTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/design/principle/PhpCourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/design/principle/openclose/PhpCourseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +92,52 @@
       <recent name="F:\酸菜鱼\design-patterns\src\test\java" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="PhpCourseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.java.design.principle.PhpCourseTest" />
+  <component name="RunManager" selected="Application.LoDTest">
+    <configuration name="DIPTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.java.design.principle.DIP.DIPTest" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.java.design.principle.*" />
+          <option name="PATTERN" value="test.java.design.principle.DIP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoDTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.java.design.principle.LoD.LoDTest" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.design.principle.LoD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhpCourseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.java.design.principle.openclose.PhpCourseTest" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.design.principle.openclose.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SRPTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.java.design.principle.SRP.SRPTest" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.design.principle.SRP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,6 +147,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoDTest" />
+        <item itemvalue="Application.SRPTest" />
+        <item itemvalue="Application.DIPTest" />
         <item itemvalue="Application.PhpCourseTest" />
       </list>
     </recent_temporary>
@@ -103,7 +164,8 @@
       <updated>1664023605518</updated>
       <workItem from="1664023606931" duration="6000" />
       <workItem from="1664023974132" duration="1682000" />
-      <workItem from="1664087071792" duration="3851000" />
+      <workItem from="1664087071792" duration="5684000" />
+      <workItem from="1664160935348" duration="4402000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1664024392155</created>
@@ -119,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664087282160</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="openclose">
+      <created>1664091173023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664091173023</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +209,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试提交" />
     <MESSAGE value="测试提交1" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试提交1" />
+    <MESSAGE value="openclose" />
+    <option name="LAST_COMMIT_MESSAGE" value="openclose" />
   </component>
 </project>
