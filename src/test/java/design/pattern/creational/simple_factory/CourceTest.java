@@ -1,9 +1,8 @@
 package test.java.design.pattern.creational.simple_factory;
 
-import main.java.design.pattern.creational.simple_factory.Cource;
-import main.java.design.pattern.creational.simple_factory.CourceFactory;
-import main.java.design.pattern.creational.simple_factory.JavaCource;
-import main.java.design.pattern.creational.simple_factory.PythonCource;
+import main.java.design.pattern.FactoryAbout.simple_factory.Cource;
+import main.java.design.pattern.FactoryAbout.simple_factory.CourceFactory;
+import main.java.design.pattern.FactoryAbout.simple_factory.JavaCource;
 
 public class CourceTest {
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {

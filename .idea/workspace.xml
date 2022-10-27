@@ -4,12 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e373a647-2337-4ad6-b565-81a8a498ed87" name="Changes" comment="disign pattern factory">
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/oppoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/oppoPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/oppoRoute.java" afterDir="false" />
+    <list default="true" id="e373a647-2337-4ad6-b565-81a8a498ed87" name="Changes" comment="disign pattern factory 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/others/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/others/Thing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/others/ThingDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/v1/AdvTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/v1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/v1/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/v2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/v2/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/v2/PrototypeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Singleton_Pattern/standard/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Singleton_Pattern/v1/Emperor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Singleton_Pattern/v1/Minister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Singleton_Pattern/v2/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/standard/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/standard/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/standard/ConcreteClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v1/HummerH1Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v1/HummerH2Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v1/HummerModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v2/HummerH1Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v2/HummerH2Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v2/HummerModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v3/HummerH1Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v3/HummerModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v3/fe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/builder/v1/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/builder/v1/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/builder/v1/CourseActualBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/builder/v1/CourseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design/pattern/creational/builder/v1/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/HuaweiFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/HuaweiFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/HuaweiPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/HuaweiPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/HuaweiRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/HuaweiRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/ProductFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/Router.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/XiaomiFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/XiaomiFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/XiaomiPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/XiaomiPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/XiaomiRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/XiaomiRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/oppoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/oppoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/oppoPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/oppoPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/oppoRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/oppoRoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/JavaVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/JavaVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/JavaVideoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/JavaVideoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/PEVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/PEVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/PEVideoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/PEVideoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/VideoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/VideoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/simple_factory/Cource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/simple_factory/Cource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/simple_factory/CourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/simple_factory/CourceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/simple_factory/JavaCource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/simple_factory/JavaCource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/simple_factory/PythonCource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/simple_factory/PythonCource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/design/pattern/creational/abstract_factory/abstract_factory_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/design/pattern/creational/abstract_factory/abstract_factory_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/design/pattern/creational/factory/VideoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/design/pattern/creational/factory/VideoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/design/pattern/creational/simple_factory/CourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/design/pattern/creational/simple_factory/CourceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +109,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -71,14 +123,18 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\酸菜鱼\design-patterns\src\test\java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.java.design.pattern.TemplateMethod_Pattern.v2" />
+      <recent name="main.java.design.pattern.Singleton_Pattern.v2" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.abstract_factory_Test">
-    <configuration name="CourceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.java.design.pattern.creational.simple_factory.CourceTest" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.design.pattern.TemplateMethod_Pattern.v2.Client" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.java.design.pattern.creational.simple_factory.*" />
+          <option name="PATTERN" value="main.java.design.pattern.TemplateMethod_Pattern.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoDTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.java.design.principle.LoD.LoDTest" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.design.pattern.Prototype_Pattern.v1.Client" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.java.design.principle.LoD.*" />
+          <option name="PATTERN" value="main.java.design.pattern.Prototype_Pattern.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +155,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SRPTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.java.design.principle.SRP.SRPTest" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.design.pattern.Prototype_Pattern.v2.Client" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.java.design.principle.SRP.*" />
+          <option name="PATTERN" value="main.java.design.pattern.Prototype_Pattern.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.design.pattern.Prototype_Pattern.others.Test" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.design.pattern.Prototype_Pattern.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.abstract_factory_Test" />
-        <item itemvalue="Application.VideoTest" />
-        <item itemvalue="Application.CourceTest" />
-        <item itemvalue="Application.LoDTest" />
-        <item itemvalue="Application.SRPTest" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +229,9 @@
       <workItem from="1664023974132" duration="1682000" />
       <workItem from="1664087071792" duration="5684000" />
       <workItem from="1664160935348" duration="11314000" />
-      <workItem from="1664203284248" duration="397000" />
+      <workItem from="1664203284248" duration="1256000" />
+      <workItem from="1664242462993" duration="4699000" />
+      <workItem from="1666874304904" duration="5951000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1664024392155</created>
@@ -197,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664201197285</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="disign pattern factory 1">
+      <created>1664203720827</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664203720827</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +299,7 @@
     <MESSAGE value="openclose" />
     <MESSAGE value="disign pattern before study" />
     <MESSAGE value="disign pattern factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="disign pattern factory" />
+    <MESSAGE value="disign pattern factory 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="disign pattern factory 1" />
   </component>
 </project>
