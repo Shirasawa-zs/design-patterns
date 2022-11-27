@@ -1,6 +1,6 @@
 package test.java.design.pattern.creational.abstract_factory;
 
-import main.java.design.pattern.FactoryAbout.abstract_factory.*;
+import main.java.design.pattern.FactoryAboutOthers.abstract_factory.*;
 
 public class abstract_factory_Test {
     public static void main(String[] args) {

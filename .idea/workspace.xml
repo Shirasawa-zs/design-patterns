@@ -4,62 +4,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e373a647-2337-4ad6-b565-81a8a498ed87" name="Changes" comment="disign pattern factory 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/others/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/others/Thing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/others/ThingDept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/v1/AdvTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/v1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/v1/Mail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/v2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/v2/Mail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/v2/PrototypeClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Singleton_Pattern/standard/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Singleton_Pattern/v1/Emperor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Singleton_Pattern/v1/Minister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Singleton_Pattern/v2/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/standard/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/standard/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/standard/ConcreteClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v1/HummerH1Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v1/HummerH2Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v1/HummerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v2/HummerH1Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v2/HummerH2Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v2/HummerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v3/HummerH1Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v3/HummerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/TemplateMethod_Pattern/v3/fe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/builder/v1/Coach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/builder/v1/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/builder/v1/CourseActualBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/builder/v1/CourseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/design/pattern/creational/builder/v1/Test.java" afterDir="false" />
+    <list default="true" id="e373a647-2337-4ad6-b565-81a8a498ed87" name="Changes" comment="disign pattern construct">
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/standard/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/standard/ConcreteProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/standard/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/standard/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/v1/BMWModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/v1/BenzModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/v1/CarModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/v1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/v2/BMWBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/v2/BenzBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/v2/CarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/v2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/v2/Client1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/v3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Bulider_Pattern/v3/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Factory_Pattern/standard/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Factory_Pattern/standard/ConcreteCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Factory_Pattern/standard/ConcreteProduct1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Factory_Pattern/standard/ConcreteProduct2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Factory_Pattern/standard/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Factory_Pattern/standard/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Factory_Pattern/v1/AbstractHumanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Factory_Pattern/v1/BlackHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Factory_Pattern/v1/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Factory_Pattern/v1/HumanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Factory_Pattern/v1/NvWa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Factory_Pattern/v1/WhiteHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Factory_Pattern/v1/YellowHuman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/HuaweiFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/HuaweiFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/HuaweiPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/HuaweiPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/HuaweiRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/HuaweiRouter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/ProductFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/Router.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/XiaomiFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/XiaomiFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/XiaomiPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/XiaomiPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/XiaomiRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/XiaomiRouter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/oppoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/oppoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/oppoPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/oppoPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/abstract_factory/oppoRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/oppoRoute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/JavaVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/JavaVideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/JavaVideoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/JavaVideoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/PEVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/PEVideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/PEVideoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/PEVideoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/VideoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/VideoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/simple_factory/Cource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/simple_factory/Cource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/simple_factory/CourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/simple_factory/CourceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/simple_factory/JavaCource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/simple_factory/JavaCource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/simple_factory/PythonCource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/simple_factory/PythonCource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/HuaweiFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/abstract_factory/HuaweiFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/HuaweiPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/abstract_factory/HuaweiPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/HuaweiRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/abstract_factory/HuaweiRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/abstract_factory/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/abstract_factory/ProductFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/abstract_factory/Router.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/XiaomiFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/abstract_factory/XiaomiFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/XiaomiPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/abstract_factory/XiaomiPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/XiaomiRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/abstract_factory/XiaomiRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/oppoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/abstract_factory/oppoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/oppoPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/abstract_factory/oppoPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/abstract_factory/oppoRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/abstract_factory/oppoRoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/JavaVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/factory/JavaVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/JavaVideoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/factory/JavaVideoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/PEVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/factory/PEVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/PEVideoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/factory/PEVideoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/factory/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/factory/VideoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/factory/VideoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/simple_factory/Cource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/simple_factory/Cource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/simple_factory/CourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/simple_factory/CourceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/simple_factory/JavaCource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/simple_factory/JavaCource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAbout/simple_factory/PythonCource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/FactoryAboutOthers/simple_factory/PythonCource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/v2/PrototypeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Prototype_Pattern/standard/PrototypeClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/builder/v1/Coach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/builder/v1/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/builder/v1/CourseActualBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/builder/v1/CourseBuilder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/design/pattern/creational/abstract_factory/abstract_factory_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/design/pattern/creational/abstract_factory/abstract_factory_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/design/pattern/creational/builder/v1/Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/design/pattern/creational/factory/VideoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/design/pattern/creational/factory/VideoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/design/pattern/creational/simple_factory/CourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/design/pattern/creational/simple_factory/CourceTest.java" afterDir="false" />
     </list>
@@ -128,7 +131,7 @@
       <recent name="main.java.design.pattern.Singleton_Pattern.v2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client1">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.design.pattern.TemplateMethod_Pattern.v2.Client" />
       <module name="design-patterns" />
@@ -143,11 +146,24 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.design.pattern.Prototype_Pattern.v1.Client" />
+      <option name="MAIN_CLASS_NAME" value="main.java.design.pattern.Bulider_Pattern.v1.Client" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.design.pattern.Prototype_Pattern.v1.*" />
+          <option name="PATTERN" value="main.java.design.pattern.Bulider_Pattern.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.design.pattern.Bulider_Pattern.v2.Client1" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.design.pattern.Bulider_Pattern.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,26 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="abstract_factory_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.java.design.pattern.creational.abstract_factory.abstract_factory_Test" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.design.pattern.creational.abstract_factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client1" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.abstract_factory_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +233,8 @@
       <workItem from="1664160935348" duration="11314000" />
       <workItem from="1664203284248" duration="1256000" />
       <workItem from="1664242462993" duration="4699000" />
-      <workItem from="1666874304904" duration="5951000" />
+      <workItem from="1666874304904" duration="6333000" />
+      <workItem from="1666925423883" duration="3470000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1664024392155</created>
@@ -275,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664203720827</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="disign pattern construct">
+      <created>1666884311357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666884311357</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +310,7 @@
     <MESSAGE value="disign pattern before study" />
     <MESSAGE value="disign pattern factory" />
     <MESSAGE value="disign pattern factory 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="disign pattern factory 1" />
+    <MESSAGE value="disign pattern construct" />
+    <option name="LAST_COMMIT_MESSAGE" value="disign pattern construct" />
   </component>
 </project>
